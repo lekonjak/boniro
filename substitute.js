@@ -1,4 +1,4 @@
-const names = ['Bolovo', 'Bololo', 'Salnorabo', 'Bonobo', 'Bolar', 'Boniro', 'Bonaldo', 'Bolero', 'Bonaro', 'Bonoro'];
+const nomes = names;
 
 function replaceText (node) {
   if (node.nodeType === Node.TEXT_NODE) {
@@ -8,7 +8,7 @@ function replaceText (node) {
     }
 
     let content = node.textContent;
-    content = content.replace(/bolsonaro/gi, names[Math.floor(Math.random()*names.length)]);
+    content = content.replace(/bolsonaro/gi, nomes[Math.floor(Math.random()*names.length)]);
     node.textContent = content;
   }
   else {
