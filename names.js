@@ -1,6 +1,10 @@
 let names = [];
 
-names.push("Boniro");
-names.push("Bolovo");
+names.push("Bolero");
 names.push("Bololo");
+names.push("Bolovo");
+names.push("Bonaldo");
+names.push("Bonaro");
+names.push("Boniro");
 names.push("Bonoro");
+names.push("Esfaquenaro");

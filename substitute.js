@@ -8,10 +8,11 @@ function replaceText (node) {
     }
 
     let content = node.textContent;
-    content = content.replace(/bolsonaro/gi, nomes[Math.floor(Math.random()*names.length)]);
+    content = content.replace(/Bolsonaro/g, nomes[Math.floor(Math.random()*names.length)]);
+    content = content.replace(/BOLSONARO/g, nomes[Math.floor(Math.random()*names.length)].toUpperCase());
+    content = content.replace(/bolsonaro/g, nomes[Math.floor(Math.random()*names.length)].toLowerCase());
     node.textContent = content;
-  }
-  else {
+  } else {
     for (let i = 0; i < node.childNodes.length; i++) {
       replaceText(node.childNodes[i]);
     }
