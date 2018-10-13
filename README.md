@@ -1,7 +1,5 @@
 # Bonobo Substitution
 
-![](img/Bolsonaro.png)
-
-![](img/Bolero.png)
+![](img/Picture.png)
 
 Based on [Mozilla's emoji substitution Firefox addon example](https://github.com/mdn/webextensions-examples/tree/master/emoji-substitution).
